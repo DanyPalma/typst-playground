@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  webpack: (config) => {
+  webpack: (config: any) => {
     config.experiments = {
       ...config.experiments,
       asyncWebAssembly: true,

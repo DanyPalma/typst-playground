@@ -21,7 +21,7 @@ A modern, interactive playground for experimenting with Typst, a powerful markup
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/typst-playground.git
+   git clone https://github.com/danypalma/typst-playground.git
    cd typst-playground
    ```
 

@@ -9,7 +9,7 @@ export default function Home() {
 
   return (
     <main className="flex flex-row h-screen p-4 bg-slate-50">
-      <div className="grid grid-cols-2 gap-4 flex-grow overflow-hidden">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 flex-grow overflow-hidden">
         <div className="relative overflow-hidden rounded-lg border shadow-sm bg-[#1e1e1e]">
           <CodeEditor
             value={content}
